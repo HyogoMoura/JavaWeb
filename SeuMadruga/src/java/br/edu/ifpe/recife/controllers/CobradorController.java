@@ -5,8 +5,8 @@
  */
 package br.edu.ifpe.recife.controllers;
 
-import br.edu.ifpe.recife.model.entities.Agiota;
-import br.edu.ifpe.recife.model.repositories.AgiotaRepository;
+import br.edu.ifpe.recife.model.entities.Cobrador;
+import br.edu.ifpe.recife.model.repositories.CobradorRepository;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
@@ -17,12 +17,13 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author ALUNO
+ * @author Diogo
  */
-public class AgiotaController extends HttpServlet {
+public class CobradorController extends HttpServlet {
 
     /**
-     * Handles the HTTP <code>GET</code> method.
+     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
+     * methods.
      *
      * @param request servlet request
      * @param response servlet response
@@ -33,7 +34,7 @@ public class AgiotaController extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-        List<Agiota> agiotas = AgiotaRepository.readAll();
+        List<Cobrador> cobrador = CobradorRepository.readAll();
         
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
@@ -41,27 +42,29 @@ public class AgiotaController extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet AgiotaController</title>");            
+            out.println("<title>Servlet Cobrador Controller</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Agiotas cadastrados no sistema</h1>");
+            out.println("<h1>Cobradores cadastrados no sistema</h1>");
             out.println("<a href='index.html'>home</a><br/>");
             out.println("<table border=\"2\">");
             out.println("<tr><th>Código</th><th>"
                     + "Nome de Guerra</th><th>e-mail</th>"
                     + "</tr>");
             
-                    for(Agiota agi : agiotas){
+                    for(Cobrador cob : cobrador){
                         out.println("<tr>");
-                        out.println("<td>"+agi.getCodigo()+"</td>");
-                        out.println("<td>"+agi.getCodNome()+"</td>");
-                        out.println("<td>"+agi.getEmail()+"</td>");
+                        out.println("<td>"+cob.getCodigo()+"</td>");
+                        out.println("<td>"+cob.getCodNome()+"</td>");
+                        out.println("<td>"+cob.getEmail()+"</td>");
+                        out.println("<td>"+cob.getValor()+"</td>");
                         out.println("</tr>");
                     }
             
             out.println("</body>");
             out.println("</html>");
         }
+        
         
     }
 
@@ -76,7 +79,6 @@ public class AgiotaController extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
     }
 
     /**

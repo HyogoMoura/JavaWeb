@@ -4,9 +4,17 @@
         <servlet-name>AgiotaController</servlet-name>
         <servlet-class>br.edu.ifpe.recife.controllers.AgiotaController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CobradorController</servlet-name>
+        <servlet-class>br.edu.ifpe.recife.controllers.CobradorController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>AgiotaController</servlet-name>
         <url-pattern>/AgiotaController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CobradorController</servlet-name>
+        <url-pattern>/CobradorController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

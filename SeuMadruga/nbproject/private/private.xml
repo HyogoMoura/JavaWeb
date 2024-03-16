@@ -4,14 +4,14 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Diogo/OneDrive/Codigos/WEB2/JavaWeb/SeuMadruga/src/java/br/edu/ifpe/recife/controllers/AgiotaController.java</file>
+            <file>file:/C:/Users/Diogo/OneDrive/Codigos/WEB2/JavaWeb/SeuMadruga/web/index.html</file>
             <file>file:/C:/Users/Diogo/OneDrive/Codigos/WEB2/JavaWeb/SeuMadruga/web/cadastroAgiota.html</file>
             <file>file:/C:/Users/Diogo/OneDrive/Codigos/WEB2/JavaWeb/SeuMadruga/src/java/br/edu/ifpe/recife/model/entities/Cobrador.java</file>
-            <file>file:/C:/Users/Diogo/OneDrive/Codigos/WEB2/JavaWeb/SeuMadruga/web/WEB-INF/web.xml</file>
             <file>file:/C:/Users/Diogo/OneDrive/Codigos/WEB2/JavaWeb/SeuMadruga/src/java/br/edu/ifpe/recife/model/repositories/CobradorRepository.java</file>
             <file>file:/C:/Users/Diogo/OneDrive/Codigos/WEB2/JavaWeb/SeuMadruga/src/java/br/edu/ifpe/recife/controllers/CadastroCobradorServlet.java</file>
+            <file>file:/C:/Users/Diogo/OneDrive/Codigos/WEB2/JavaWeb/SeuMadruga/src/java/br/edu/ifpe/recife/controllers/CobradorController.java</file>
             <file>file:/C:/Users/Diogo/OneDrive/Codigos/WEB2/JavaWeb/SeuMadruga/src/java/br/edu/ifpe/recife/model/repositories/AgiotaRepository.java</file>
             <file>file:/C:/Users/Diogo/OneDrive/Codigos/WEB2/JavaWeb/SeuMadruga/web/cadastroCobrador.html</file>
-            <file>file:/C:/Users/Diogo/OneDrive/Codigos/WEB2/JavaWeb/SeuMadruga/src/java/br/edu/ifpe/recife/controllers/CadastroAgiotaServlet.java</file>
         </group>
     </open-files>
 </project-private>
