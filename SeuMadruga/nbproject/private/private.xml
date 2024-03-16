@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Documents/NetBeansProjects/SeuMadruga/src/java/br/edu/ifpe/recife/model/entities/Cobranca.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/SeuMadruga/src/java/br/edu/ifpe/recife/model/entities/Cobrador.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/SeuMadruga/src/java/br/edu/ifpe/recife/model/entities/Agiota.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/SeuMadruga/src/java/br/edu/ifpe/recife/controllers/AgiotaController.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/SeuMadruga/web/index.html</file>
+            <file>file:/D:/Documents/NetBeansProjects/SeuMadruga/web/cadastroAgiota.html</file>
+            <file>file:/D:/Documents/NetBeansProjects/SeuMadruga/src/java/br/edu/ifpe/recife/model/entities/Devedor.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/SeuMadruga/src/java/br/edu/ifpe/recife/model/entities/Metodo.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/SeuMadruga/src/java/br/edu/ifpe/recife/controllers/CadastroAgiotaServlet.java</file>
+            <file>file:/D:/Documents/NetBeansProjects/SeuMadruga/src/java/br/edu/ifpe/recife/model/repositories/AgiotaRepository.java</file>
+        </group>
+    </open-files>
+</project-private>
