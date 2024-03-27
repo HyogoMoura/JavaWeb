@@ -26,7 +26,7 @@ public class ProfessorRepository {
         ProfessorRepository.profesores.add(p);
     }
 
-    public static void updates(Professor p) {
+    public static void update(Professor p) {
         for (Professor prof : profesores) {
             if (prof.getCodigo() == p.getCodigo()) {
                 prof.setNome(p.getNome());

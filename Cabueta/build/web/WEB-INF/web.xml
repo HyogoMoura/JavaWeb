@@ -8,6 +8,14 @@
         <servlet-name>CadeirasController</servlet-name>
         <servlet-class>devcaotics.controllers.CadeirasController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ProfessorController</servlet-name>
+        <servlet-class>devcaotics.controllers.ProfessorController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MetodoController</servlet-name>
+        <servlet-class>devcaotics.controllers.MetodoController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>EstudantesServlet</servlet-name>
         <url-pattern>/EstudantesServlet</url-pattern>
@@ -15,6 +23,14 @@
     <servlet-mapping>
         <servlet-name>CadeirasController</servlet-name>
         <url-pattern>/CadeirasController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProfessorController</servlet-name>
+        <url-pattern>/ProfessorController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MetodoController</servlet-name>
+        <url-pattern>/MetodoController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
