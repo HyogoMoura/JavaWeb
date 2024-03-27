@@ -25,7 +25,7 @@ public class EstudanteRepository {
         EstudanteRepository.estudantes.add(e);
     }
 
-    public static void updates(Estudante e) {
+    public static void update(Estudante e) {
         for (Estudante est : estudantes) {
             if (est.getCodigo() == e.getCodigo()) {
                 est.setNome(e.getNome());

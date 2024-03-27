@@ -3,11 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Diogo/Documents/NetBeansProjects/Cabueta/src/java/devcaotics/entities/Estudante.java</file>
-            <file>file:/C:/Users/Diogo/Documents/NetBeansProjects/Cabueta/src/java/devcaotics/entities/Professor.java</file>
-            <file>file:/C:/Users/Diogo/Documents/NetBeansProjects/Cabueta/src/java/devcaotics/controllers/EstudantesController.java</file>
-            <file>file:/C:/Users/Diogo/Documents/NetBeansProjects/Cabueta/src/java/devcaotics/repository/EstudanteRepository.java</file>
+            <file>file:/C:/Users/Diogo/Documents/NetBeansProjects/Cabueta/src/java/devcaotics/controllers/EstudanteController.java</file>
+            <file>file:/C:/Users/Diogo/Documents/NetBeansProjects/Cabueta/src/java/devcaotics/controllers/CadeirasController.java</file>
+            <file>file:/C:/Users/Diogo/Documents/NetBeansProjects/Cabueta/web/WEB-INF/web.xml</file>
             <file>file:/C:/Users/Diogo/Documents/NetBeansProjects/Cabueta/web/index.html</file>
+            <file>file:/C:/Users/Diogo/Documents/NetBeansProjects/Cabueta/web/cadastroCadeira.html</file>
             <file>file:/C:/Users/Diogo/Documents/NetBeansProjects/Cabueta/web/cadastroEstudante.html</file>
         </group>
     </open-files>

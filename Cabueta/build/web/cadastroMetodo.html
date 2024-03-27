@@ -4,13 +4,88 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Métodos de Fila</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            background-color: #007bff;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        label {
+            display: inline-block;
+            width: 150px;
+            margin-top:  10px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: calc(100% - 170px);
+            padding: 5px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">HOME</a></br>
+    <form method="post" action="MetodoController">
+        <label for="codigo">Código:</label>
+        <input type="text" id="codigo" name="codigo"/><br/>
+
+        <label for="descricaoCurta">Desc. Método:</label>
+        <input type="text" id="descricaoCurta" name="descricaoCurta"/></br>
+
+        <label for="descricaoLonga">Detalhamento:</label>
+        <textarea id="descricaoLonga" name="descricaoLonga"></textarea><br/>
+
+        <input type="submit" value="Cadastrar"/>
+    </form>
+</body>
 </html>
+

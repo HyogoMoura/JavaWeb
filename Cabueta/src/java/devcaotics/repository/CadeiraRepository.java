@@ -33,6 +33,7 @@ public class CadeiraRepository {
                 cAux.setNome(c.getNome());
                 cAux.setAno(c.getAno());
                 cAux.setSemestre(c.getSemestre());
+                cAux.setDescricao(c.getDescricao());
 
                 return;
             }

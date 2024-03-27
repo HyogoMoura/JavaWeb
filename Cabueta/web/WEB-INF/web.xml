@@ -2,11 +2,19 @@
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
         <servlet-name>EstudantesServlet</servlet-name>
-        <servlet-class>devcaotics.controllers.EstudantesController</servlet-class>
+        <servlet-class>devcaotics.controllers.EstudanteController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CadeirasController</servlet-name>
+        <servlet-class>devcaotics.controllers.CadeirasController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EstudantesServlet</servlet-name>
         <url-pattern>/EstudantesServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CadeirasController</servlet-name>
+        <url-pattern>/CadeirasController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

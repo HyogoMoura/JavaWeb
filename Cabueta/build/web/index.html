@@ -4,26 +4,101 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
-    <head>
-        <title>Sistema Cabueta</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <h2>Sistema de delacao de cabuetas</h2>
-        <h3>Faca ja seu cadastro para delatar ou descobrir os schemas</h3>
-        <ul>
-            <li>Cadastro</li>
-            <ul>
-                <li><a href="cadastroEstudante.html">Aluno</a></li>
-                <ul>
-                    <li><a href="EstudanteController">Lista de Cadastro</a></li>
-                </ul>
-                <li>Professor</li>
-                <li>Metodo de fila</li>
-                <li>Cadeira</li>
-            </ul>
-        </ul>
-    </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Sistema Cabueta</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Reset de Estilos para Limpar Padrões do Navegador */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos para o Corpo da Página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        /* Estilos para o Título Principal */
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Estilos para o Menu */
+        .menu {
+            display: flex;
+            justify-content: normal;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+        }
+
+        .menu a:hover {
+            background-color: #555;
+        }
+
+        /* Estilos para os Submenus */
+        .submenu {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .menu-item:hover .submenu {
+            display: block;
+        }
+
+        .submenu a {
+            display: block;
+            color: #fff;
+            padding: 5px 10px;
+            text-decoration: none;
+        }
+
+        .submenu a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h2>Sistema de delação de cabuetas</h2>
+    <div class="menu">
+        <div class="menu-item">
+            <a>Cadastro</a>
+            <div class="submenu">
+                <a href="cadastroEstudante.html">Aluno</a>
+                <a href="cadastroProfessor.html">Professor</a>
+                <a href="cadastroMetodo.html">Método de Fila</a>
+                <a href="cadastroCadeira.html">Cadeira</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <a>Edição</a>
+            <div class="submenu">
+                <a href="EstudantesServlet">Editar Aluno</a>
+                <a href="ProfessorController">Editar Professor</a>
+                <a href="MetodoController">Editar Método</a>
+                <a href="CadeirasController">Editar Cadeira</a>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
+
